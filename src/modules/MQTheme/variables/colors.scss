@@ -1,0 +1,38 @@
+/* Colors */
+$color-brand-indigo: #453776;
+$color-brand-indigo-transparent: #4537760C;
+$color-brand-indigo-dark: #292048;
+$color-brand-indigo-light: #e3e0f1;
+$color-brand-blue: #2ea3f2;
+$color-brand-blue-transparent: #2ea3f220;
+$color-brand-blue-light: #e9f6fe;
+
+$color-marketing-purple: #610d75;
+$color-marketing-purple-med: #9f1798;
+$color-marketing-purple-light: #d09bcd;
+$color-marketing-gold: #f9c404;
+
+$color-info-warning: #ff9900;
+$color-info-warning-text: #8a6d3b;
+$color-info-danger: #c9302c;
+$color-info-danger-transparent: #c9302c3a;
+$color-info-danger-text: #a94442;
+$color-info-disabled: #f7f7f7;
+$color-info-disabled-text: #aaaaaa;
+$color-info-success: #10a34e;
+$color-info-success-transparent: #10a34e19;
+$color-info-success-text: #267638;
+
+$color-neutral-text: #444444;
+$color-neutral-text-med: #666666;
+$color-neutral-text-dim: #999999;
+$color-neutral-text-dim-transparent: #99999919;
+$color-neutral-text-light: #ffffff;
+$color-neutral-stroke: #e1e1e1;
+$color-neutral-bkg: #f7f7f7;
+$color-neutral-surface: #ffffff;
+
+/* Gradients */
+$gradients-brand-primary: linear-gradient(90deg, #{$color-marketing-purple} 0%, #{$color-brand-indigo} 100%);
+$gradients-brand-cool: linear-gradient(90deg, #{$color-brand-blue} 0%, #{$color-brand-indigo} 100%);
+$gradients-brand-warm: linear-gradient(90deg, #{$color-brand-indigo-dark} 0%, #{$color-marketing-purple-med} 50%, #{$color-marketing-gold} 100%);

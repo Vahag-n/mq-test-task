@@ -1,0 +1,13 @@
+.mq-input-group {
+  display: flex;
+  flex-wrap: nowrap;
+
+  .mq-input-group-prepend ~ .react-datepicker-wrapper {
+    flex: 1;
+
+    .mq-input {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+  }
+}

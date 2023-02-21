@@ -1,0 +1,51 @@
+p,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-neutral-text);
+}
+
+a {
+  color: var(--color-brand-blue);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--color-brand-indigo);
+}
+
+hr {
+  border-top: 1px solid var(--color-neutral-stroke);
+}
+
+.mq-text-muted {
+  color: var(--color-neutral-text-dim);
+}
+
+.mq-text-ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mq-text-italic {
+  font-style: italic;
+}
+
+.mq-text-right {
+  text-align: right;
+}
+
+.mq-text-left {
+  text-align: left;
+}
+
+.mq-text-center {
+  text-align: center !important;
+}

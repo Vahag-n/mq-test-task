@@ -1,0 +1,13 @@
+@import "src/modules/MQTheme/mixins/shadow";
+
+.app-profile {
+  &-suggestions__block,
+  &-matches__block,
+  &-form__block {
+    @include primaryBottomShadow();
+  }
+
+  .outline-none {
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,11 @@
+.mq-form__feedback {
+  &.valid-feedback,
+  &.invalid-feedback {
+    display: block;
+    font-size: 1rem;
+
+    &.mq-form__feedback--hidden {
+      display: none;
+    }
+  }
+}

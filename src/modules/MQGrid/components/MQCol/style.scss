@@ -1,0 +1,12 @@
+.mq-grid-col {
+
+  &.mq-col {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    &:not(:only-child) {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+}

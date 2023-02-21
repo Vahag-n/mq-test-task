@@ -1,0 +1,15 @@
+.mq-image {
+  &.rounded-circle {
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    overflow: hidden;
+  }
+
+  &.thumbnail {
+    padding: 0.25rem;
+    border: 2px solid var(--color-neutral-stroke);
+    border-radius: 0.25rem;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.mq-form {
+  &.form-inline {
+    align-items: flex-start;
+
+    div {
+      &.mq-form__group {
+        flex: 1;
+
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+
+        .mq-input,
+        .react-datepicker-wrapper {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .valid-feedback,
+  .invalid-feedback,
+  .mq-form__feedback {
+    &:empty {
+      margin-top: 0;
+    }
+  }
+}

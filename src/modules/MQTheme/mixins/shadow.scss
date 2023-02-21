@@ -1,0 +1,29 @@
+@mixin primaryBoxShadow() {
+    -moz-box-shadow:    0 0 20px var(--color-brand-indigo-light);
+    -webkit-box-shadow: 0 0 20px var(--color-brand-indigo-light);
+    box-shadow:         0 0 20px var(--color-brand-indigo-light);
+}
+
+@mixin primaryBottomShadow() {
+    -moz-box-shadow:    0 10px 10px 0 var(--color-brand-indigo-light);
+    -webkit-box-shadow: 0 10px 10px 0 var(--color-brand-indigo-light);
+    box-shadow:         0 10px 10px 0 var(--color-brand-indigo-light);
+}
+
+@mixin secondaryBottomShadow() {
+    -moz-box-shadow:    0 5px 5px 0 var(--color-brand-indigo-light);
+    -webkit-box-shadow: 0 5px 5px 0 var(--color-brand-indigo-light);
+    box-shadow:         0 5px 5px 0 var(--color-brand-indigo-light);
+}
+
+@mixin secondaryBoxShadow() {
+    -moz-box-shadow:    0 0 5px 0 rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    box-shadow:         0 0 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+@mixin focusBoxShadow() {
+  -moz-box-shadow: 0 0 0 4px rgba(69, 55, 118, 0.13);
+  -webkit-box-shadow: 0 0 0 4px rgba(69, 55, 118, 0.13);
+  box-shadow: 0 0 0 4px rgba(69, 55, 118, 0.13);
+}

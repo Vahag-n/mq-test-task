@@ -1,0 +1,140 @@
+.mq-btn {
+  &.btn {
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+
+    &.full {
+      width: 100%;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 3px rgba(46, 163, 242, 0.5);
+    }
+
+    &.btn-warning {
+      border-color: var(--color-info-warning);
+      color: var(--color-info-warning);
+      background-color: var(--color-neutral-surface);
+
+      &:hover {
+        border-color: var(--color-info-warning-text);
+        background-color: var(--color-info-warning-text);
+        color: var(--color-neutral-surface);
+      }
+    }
+
+    &.btn-danger {
+      border-color: var(--color-info-danger);
+      color: var(--color-info-danger);
+      background-color: var(--color-neutral-surface);
+
+      &:hover {
+        border-color: var(--color-info-danger-text);
+        background-color: var(--color-info-danger-text);
+        color: var(--color-neutral-surface);
+      }
+    }
+
+    &.btn-success {
+      border-color: var(--color-info-success);
+      color: var(--color-info-success);
+      background-color: var(--color-neutral-surface);
+
+      &:hover {
+        border-color: var(--color-info-success-text);
+        background-color: var(--color-info-success-text);
+        color: var(--color-neutral-surface);
+      }
+    }
+
+    &.btn-link {
+      padding: 0;
+      color: var(--color-brand-blue);
+
+      &:hover {
+        color: var(--color-brand-indigo);
+      }
+
+      &:active,
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    &.btn-primary {
+      background-color: var(--color-brand-blue);
+      border-color: var(--color-brand-blue);
+      color: var(--color-neutral-surface);
+
+      &:hover {
+        background-color: var(--color-brand-indigo);
+        border-color: var(--color-brand-indigo);
+      }
+    }
+
+    &.btn-secondary {
+      background-color: var(--color-neutral-surface);
+      border-color: var(--color-brand-blue);
+      color: var(--color-brand-blue);
+
+      &:hover {
+        background: var(--color-brand-indigo);
+        border-color: var(--color-brand-indigo);
+        color: var(--color-neutral-surface);
+      }
+    }
+
+    &.btn-tertiary {
+      background-color: var(--color-neutral-surface);
+      border-color: var(--color-neutral-surface);
+      color: var(--color-brand-blue);
+
+      &:hover {
+        color: var(--color-brand-indigo);
+      }
+    }
+
+    &.btn-sub-action--tertiary {
+      color: var(--color-brand-blue);
+
+      &:hover {
+        color: var(--color-brand-indigo);
+      }
+    }
+
+    &:disabled,
+    &.disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      pointer-events: none;
+      color: var(--color-neutral-text-light);
+      background-color: var(--color-neutral-text);
+      border-color: var(--color-neutral-text);
+    }
+
+    .mq-btn__spinner {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      padding: 0;
+    }
+
+    &.nowrap {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    &.circle {
+      text-align: center;
+      border-radius: 100%;
+      padding: 0;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.mq-label {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--mq-space-xs);
+
+  &.nowrap {
+    .mq-label__title,
+    .mq-label__description {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .mq-label__title {
+    width: 100%;
+    font-size: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 0;
+  }
+
+  .mq-label__required-icon {
+    margin-right: 0.25em;
+    color: var(--color-info-danger-text);
+  }
+
+  .mq-label__description {
+    width: 100%;
+    font-size: 1rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--color-neutral-text-med);
+  }
+
+  .mq-label__help-icon {
+    color: var(--color-brand-indigo);
+  }
+}

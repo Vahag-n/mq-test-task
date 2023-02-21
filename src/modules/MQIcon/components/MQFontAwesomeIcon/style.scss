@@ -1,0 +1,59 @@
+.fad--indigo {
+  .fa-primary {
+    opacity: 1;
+    fill: var(--color-brand-indigo);
+  }
+
+  .fa-secondary {
+    opacity: 1;
+    fill: var(--color-brand-indigo-light);
+  }
+}
+
+.fad--indigo-reverse {
+  .fa-primary {
+    opacity: 1;
+    fill: var(--color-brand-indigo-light);
+  }
+
+  .fa-secondary {
+    opacity: 1;
+    fill: var(--color-brand-indigo);
+  }
+}
+
+.fad--purple {
+  .fa-primary {
+    opacity: 1;
+    fill: var(--color-marketing-purple);
+  }
+
+  .fa-secondary {
+    opacity: 1;
+    fill: var(--color-brand-indigo-light);
+  }
+}
+
+.fad--purple-reverse {
+  .fa-primary {
+    opacity: 1;
+    fill: var(--color-marketing-purple);
+  }
+
+  .fa-secondary {
+    opacity: 1;
+    fill: var(--color-brand-indigo-light);
+  }
+}
+
+.fad--blue {
+  .fa-primary {
+    fill: var(--color-brand-blue);
+    opacity: 1;
+  }
+
+  .fa-secondary {
+    fill: var(--color-brand-indigo);
+    opacity: 1;
+  }
+}

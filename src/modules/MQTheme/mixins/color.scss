@@ -1,0 +1,9 @@
+@mixin bkg-gradient-branded() {
+  background: var(--color-brand-indigo);
+  background: var(--gradient-brand-indigo);
+}
+
+@mixin bkg-gradient-branded-dim() {
+  background: transparent;
+  background: var(--gradient-brand-indigo-dim);
+}
